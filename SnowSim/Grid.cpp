@@ -201,7 +201,7 @@ void Grid::implicitVelocities(){
 				n.err = alpha*n.p;
 				//If the error is small enough, we're done
 				float err = n.err.length();
-				if (err < MAX_IMPLICIT_ERR || err > MIN_IMPLICIT_ERR || isnan(err)){
+				if (err < MAX_IMPLICIT_ERR || err > MIN_IMPLICIT_ERR || std::isnan(err)){
 					n.imp_active = false;
 					continue;
 				}
