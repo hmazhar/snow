@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define	MAIN_H
 
-#include "glfw3/glfw3.h"
-#include "freeimage/FreeImage.h"
+#include <glfw3.h>
+#include <FreeImage.h>
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
